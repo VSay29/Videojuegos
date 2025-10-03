@@ -1,9 +1,13 @@
 package vista;
 
+import controlador.XMLPlataforma;
 import modelo.Plataforma;
 import modelo.Videojuego;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
