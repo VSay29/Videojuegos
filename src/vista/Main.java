@@ -21,6 +21,10 @@ public class Main {
         v = new Videojuego("Los Sims 4", Videojuego.Genero.SIMULACION, Videojuego.Clasificacion.AAA, 2000, LocalDate.of(2014, 9,2));
         p2.addJuego(v);
 
+        List<Plataforma> plataformas = Arrays.asList(p1, p2);
+
+        XMLPlataforma.guardarPlataformaXML(plataformas, "datos/plataformas.xml");
+
     }
 
 }
