@@ -26,6 +26,9 @@ public class Main {
         p2.addJuego(v);
 
         List<Plataforma> plataformas = Arrays.asList(p1, p2);
+        File mkdir = new File("datos");
+        mkdir.mkdir();
+        XMLPlataforma.crearXML(plataformas, "datos/plataformas.xml");
 
         XMLPlataforma.guardarPlataformaXML(plataformas, "datos/plataformas.xml");
 
