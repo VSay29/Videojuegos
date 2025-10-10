@@ -1,11 +1,12 @@
 package vista;
 
+import controlador.DOMController;
 import controlador.XMLPlataforma;
 import modelo.Plataforma;
 import modelo.Videojuego;
 
+import java.io.File;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -30,7 +31,16 @@ public class Main {
         mkdir.mkdir();
         XMLPlataforma.crearXML(plataformas, "datos/plataformas.xml");
 
-        XMLPlataforma.guardarPlataformaXML(plataformas, "datos/plataformas.xml");
+        //Imprimir XML
+        try {
+            String INPUT_XML = System.getProperty("user.dir") + File.separator + "datos/plataformas.xml";
+            DOMController controller = DOMController.getInstance(INPUT_XML);
+            controller.loadData();
+            plataformas = controller.getPlataformas();
+            controller.printXML();
+        } catch (Exception ex) {
+            System.out.println("Error: " + ex.getMessage());
+        }
 
     }
 

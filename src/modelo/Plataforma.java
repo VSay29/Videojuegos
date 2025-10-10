@@ -17,6 +17,8 @@ public class Plataforma {
         this.catalogo = new HashSet<Videojuego>();
     }
 
+    public Plataforma(){};
+
     public String getNombre() {
         return nombre;
     }
@@ -47,5 +49,9 @@ public class Plataforma {
 
     public Set<Videojuego> getCatalogo() {
         return this.catalogo;
+    }
+
+    public void setCatalogo(Set<Videojuego> catalogo) {
+        this.catalogo = catalogo;
     }
 }

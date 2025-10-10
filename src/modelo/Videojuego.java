@@ -24,6 +24,8 @@ public class Videojuego {
         this.fechaLanzamiento = fechaLanzamiento;
     }
 
+    public Videojuego() {};
+
     public String getNombre() {
         return nombre;
     }

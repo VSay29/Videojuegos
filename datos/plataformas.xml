@@ -4,42 +4,42 @@
         <precio>50000</precio>
         <ram>16384</ram>
         <catalogo>
-            <juego nombre="Elden Ring">
-                <genero>ROL</genero>
-                <clasificacion>AAA</clasificacion>
-                <precio>3000</precio>
-                <fechaLanzamiento>25/02/2022</fechaLanzamiento>
-            </juego>
-            <juego nombre="Final Fantasy X">
+            <videojuego nombre="Final Fantasy X">
                 <genero>ROL</genero>
                 <clasificacion>INDIE</clasificacion>
                 <precio>6000</precio>
                 <fechaLanzamiento>18/07/2001</fechaLanzamiento>
-            </juego>
-            <juego nombre="Stardew Valley">
+            </videojuego>
+            <videojuego nombre="Elden Ring">
+                <genero>ROL</genero>
+                <clasificacion>AAA</clasificacion>
+                <precio>3000</precio>
+                <fechaLanzamiento>25/02/2022</fechaLanzamiento>
+            </videojuego>
+            <videojuego nombre="Stardew Valley">
                 <genero>ROL</genero>
                 <clasificacion>INDIE</clasificacion>
                 <precio>7000</precio>
                 <fechaLanzamiento>25/02/2016</fechaLanzamiento>
-            </juego>
+            </videojuego>
         </catalogo>
     </plataforma>
     <plataforma nombre="PC">
         <precio>76180</precio>
         <ram>32664</ram>
         <catalogo>
-            <juego nombre="EA Sports FC 26">
+            <videojuego nombre="EA Sports FC 26">
                 <genero>DEPORTE</genero>
                 <clasificacion>AAA</clasificacion>
                 <precio>2000</precio>
                 <fechaLanzamiento>12/06/2020</fechaLanzamiento>
-            </juego>
-            <juego nombre="Los Sims 4">
+            </videojuego>
+            <videojuego nombre="Los Sims 4">
                 <genero>SIMULACION</genero>
                 <clasificacion>AAA</clasificacion>
                 <precio>2000</precio>
                 <fechaLanzamiento>02/09/2014</fechaLanzamiento>
-            </juego>
+            </videojuego>
         </catalogo>
     </plataforma>
 </plataformas>
