@@ -28,6 +28,12 @@
         <precio>76180</precio>
         <ram>32664</ram>
         <catalogo>
+            <videojuego nombre="Los Sims 4">
+                <genero>SIMULACION</genero>
+                <clasificacion>AAA</clasificacion>
+                <precio>2000</precio>
+                <fechaLanzamiento>02/09/2014</fechaLanzamiento>
+            </videojuego>
             <videojuego nombre="EA Sports FC 26">
                 <genero>DEPORTE</genero>
                 <clasificacion>AAA</clasificacion>
