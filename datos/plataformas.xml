@@ -4,6 +4,12 @@
         <precio>50000</precio>
         <ram>16384</ram>
         <catalogo>
+            <videojuego nombre="Elden Ring">
+                <genero>ROL</genero>
+                <clasificacion>AAA</clasificacion>
+                <precio>3000</precio>
+                <fechaLanzamiento>25/02/2022</fechaLanzamiento>
+            </videojuego>
             <videojuego nombre="Final Fantasy X">
                 <genero>ROL</genero>
                 <clasificacion>INDIE</clasificacion>
