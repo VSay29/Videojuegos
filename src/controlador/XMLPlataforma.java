@@ -13,12 +13,13 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
+import java.text.DateFormat;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class XMLPlataforma {
 
-    public static void crearXML(List<Plataforma> plataformas, String archivoXML) {
+    public static void guardarPlataformaXML(List<Plataforma> plataformas, String archivoXML) {
         try {
 
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -43,7 +44,7 @@ public class XMLPlataforma {
                 Element catalogo = doc.createElement("catalogo");
 
                 for (Videojuego v : p.getCatalogo()) {
-                    Element j =  doc.createElement("videojuego");
+                    Element j =  doc.createElement("juego");
                     j.setAttribute("nombre", v.getNombre());
 
                     Element genero =  doc.createElement("genero");
@@ -86,4 +87,5 @@ public class XMLPlataforma {
             ex.getMessage();
         }
     }
+
 }
