@@ -40,12 +40,6 @@
                 <precio>2000</precio>
                 <fechaLanzamiento>12/06/2020</fechaLanzamiento>
             </videojuego>
-            <videojuego nombre="Los Sims 4">
-                <genero>SIMULACION</genero>
-                <clasificacion>AAA</clasificacion>
-                <precio>2000</precio>
-                <fechaLanzamiento>02/09/2014</fechaLanzamiento>
-            </videojuego>
         </catalogo>
     </plataforma>
 </plataformas>
